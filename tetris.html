@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>tetris</title>
+	<link rel="stylesheet" href="./tetris.css">
+</head>
+<body>
+	<div class="main1">
+		<div class = "left-side">
+			<div class = "upper-left">
+				<div id = "miniContainer"></div>
+			</div>
+
+			<div class = "middle-left">
+				<div id = "score1"><span class = "score">Your score is</span></div>
+			</div>
+
+			<div class = "lower-left">
+				<button id = "restart" name= "restart" onClick="window.location.reload()"></button>
+			</div>
+
+		</div>
+		<div class = "right-side">
+			<div id = "container" ></div>
+
+
+		</div>
+	</div>
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+		<!-- Modal content -->
+		<div class="modal-content">
+			<h1 style="color:red">Game Over</h1>
+			<button id = "modalRestart" name="restart" onClick="window.location.reload()"></button>
+		</div>
+	</div>
+	<script src="tetris.js"></script>
+	<script src="MiniBoard.js"></script>
+</body>
+</html>

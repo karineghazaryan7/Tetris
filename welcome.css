@@ -1,0 +1,79 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.main{
+	width: 100%;
+	background: black;
+	padding-top : 50px; 
+}
+
+.tetrisDiv{
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 0px;
+}
+
+h1{
+	font-size: 108px !important;
+	color: orange;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+
+.startDiv{
+	height: 100px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+h2{
+	font-size: 50px !important;
+	color: white;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+h2:hover{
+opacity: 0.5;
+transform: scale(1.5, 1.5);
+}
+
+.generalDiv{
+	width: 1179px;
+	margin:0 auto;
+}
+
+.tetroDiv{
+	width: 222px;
+	margin-left: 800px;
+	margin-bottom: 55px; 
+	float: right;
+}
+
+.collectionDiv{
+	height: 220px;
+	width: 1179px;
+	margin-top: 100px;
+	margin: 0 auto;
+	clear: both;
+}
+
+table th{
+	padding:35px;
+	border: 1px solid black;
+	background-color: silver;
+}
+
+
+.black{
+	background-color: black !important;
+}
+
+
+
+
